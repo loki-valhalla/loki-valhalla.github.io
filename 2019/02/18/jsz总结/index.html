@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="#JS基础 ##在中书写  分为两种写入方式 ###1.内嵌式{在html中写入}测试常用    2.外链式{src:”xxxx.js”}开发常用    3.每一个脚本后都要以分号;结尾，分号结尾是用于JS解析器用。 1.alert(‘在里面输入一段文字’),是以弹窗的方式出现,里面的内容是”字符串”类型的;对于文字内容必须加引号,””或’’都行,一般不常用,测试的时候可以使用。 +2.confi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/2019/02/18/jsz总结/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="#JS基础 ##在中书写  分为两种写入方式 ###1.内嵌式{在html中写入}测试常用    2.外链式{src:”xxxx.js”}开发常用    3.每一个脚本后都要以分号;结尾，分号结尾是用于JS解析器用。 1.alert(‘在里面输入一段文字’),是以弹窗的方式出现,里面的内容是”字符串”类型的;对于文字内容必须加引号,””或’’都行,一般不常用,测试的时候可以使用。 +2.confi">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-01-23T13:40:07.147Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="#JS基础 ##在中书写  分为两种写入方式 ###1.内嵌式{在html中写入}测试常用    2.外链式{src:”xxxx.js”}开发常用    3.每一个脚本后都要以分号;结尾，分号结尾是用于JS解析器用。 1.alert(‘在里面输入一段文字’),是以弹窗的方式出现,里面的内容是”字符串”类型的;对于文字内容必须加引号,””或’’都行,一般不常用,测试的时候可以使用。 +2.confi">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-jsz总结" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/18/jsz总结/" class="article-date">
+  <time datetime="2019-02-18T06:53:09.948Z" itemprop="datePublished">2019-02-18</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#JS基础</p>
+<p>##在<script></script>中书写<br>  分为两种写入方式</p>
+<p>###1.内嵌式{在html中写入}测试常用</p>
+<p>   2.外链式{src:”xxxx.js”}开发常用</p>
+<p>   3.每一个脚本后都要以分号;结尾，分号结尾是用于JS解析器用。</p>
+<h3 id="1-alert-‘在里面输入一段文字’-是以弹窗的方式出现-里面的内容是”字符串”类型的-对于文字内容必须加引号-””或’’都行-一般不常用-测试的时候可以使用。"><a href="#1-alert-‘在里面输入一段文字’-是以弹窗的方式出现-里面的内容是”字符串”类型的-对于文字内容必须加引号-””或’’都行-一般不常用-测试的时候可以使用。" class="headerlink" title="1.alert(‘在里面输入一段文字’),是以弹窗的方式出现,里面的内容是”字符串”类型的;对于文字内容必须加引号,””或’’都行,一般不常用,测试的时候可以使用。"></a>1.alert(‘在里面输入一段文字’),是以弹窗的方式出现,里面的内容是”字符串”类型的;对于文字内容必须加引号,””或’’都行,一般不常用,测试的时候可以使用。</h3><p> +2.confirm(‘xxxxxxx’);会显示一个对话框，会出现确定和取消的选项，这代表了两种状态boolean 布尔类型 true/false</p>
+<p>+3.console.log(‘xxxxxxx’);通常是调试代码用,在浏览器中鼠标右键点击检查，在consolez中查看。</p>
+<p>+4.prompt（‘输入你的身高，单位：“，0）；<br>   -在网页中出现一个输入框，里面可以输出数字，<br>   -逗号后面的文字会在输入框中显示.</p>
+<p>+5.注释样式{<br>    -1.在html中的注释样式  <!-- 注释部分 --></p>
+<pre><code>-2.在css中注释样式是  /*padding: 0;*/
+
+-3.在js中注释是   //这是一个注释
+
+-4.在js中,多行注释是/*xxxxxxxx
+                    xxxxxxxx
+                    xxxxxxxx*/
+
+-5.在JS中文本注释是  
+{ctrl+shift+/} 
+</code></pre><p>}</p>
+<p>###var表示一种变量的值,或者是用户提供的值.</p>
+<p>###var命名中要注意的几点{<br>1.var  12=’xx’; 这个是错误的写法,var后是不能加数字的;</p>
+<p>2.var 变量 =’弟弟’;<br>var后不能写入中文的,这样会造成数据出现乱码</p>
+<p>3.var *132 =’xx’;,在var后,不能加入符号,除了<br>    _ 和 $ 除外.</p>
+<p>4.var var =’ss’;<br>var后面不能添加关键词,(关键词也是不是绝对性词汇)</p>
+<p>5.var STR =’xx’; 在写入var中,要严格区分大小,不然可能会造成,后面写入的的数据出现混乱.</p>
+<pre><code>6.一般会在console中加入比如 console.log(str).
+</code></pre><p>####6 JS的基本数据类型</p>
+<p>1.spring 一串;</p>
+<p>2.number 数字;</p>
+<ol start="3">
+<li>boolean buer的意思;</li>
+</ol>
+<p>4.undefind在JS中,是未定义的,他是以str后接其他语言的,它虽然声明了变量,但是没有赋予它值;</p>
+<p>5.var bak; 尽可能不要在var 后加入’bak’;</p>
+<p>6.var say =null; 没有任何意义,就是null;</p>
+<p>7.typeof 可以判断”基本数据类型”<br>   var name =’张三’;<br>   console.log(typeof  name );  //string</p>
+<ol start="8">
+<li><p>js是弱类型语言,在声明的时候没必要”显示”的声明数据类型,但是数据类型中却是真实存在的,我们在编程的过程中应当时刻明确我们当前声明类型的数据.<br>(java是强类型语言  Straing str =”xx”  int num =20;)  </p>
+</li>
+<li><p>算术运算符</p>
+<ul>
+<li><ul>
+<li><ul>
+<li>/  %<br>a)  +  可是计算,也可是连接符(比较常用)<br>b)  +  number+String ==&gt; String(拼接)<br>c)  - number-String(num) ==&gt; number(计算) ;<br>3- ‘1’ = 2;<br>d)  -  number- String(!num)  ==&gt; NaN(计算,错误);  3-‘a’ = NaN; NaN!= NaN;<br>e)  /  1/0= Infinite…错误</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>比较运算符</p>
+<blockquote>
+<p>&lt; &gt;= &lt;=  !=  ==  ===(恒等于)<br>a)  3 &gt; ‘2’ ?   true   隐式转换</p>
+</blockquote>
+</li>
+<li><p>简写<br>a = a+b ==&gt;  a+=b;<br>a = a+1 ==&gt;  a+= 1;  ==&gt; a++;<br>注意: a++ 是先参与使用,后++<br>++a  是先执行++,再参与使用    </p>
+</li>
+</ol>
+<h2 id="在程序里-包含了一部分属性和功能的集合-称之为对象"><a href="#在程序里-包含了一部分属性和功能的集合-称之为对象" class="headerlink" title="在程序里,包含了一部分属性和功能的集合,称之为对象"></a><strong>在程序里,包含了一部分属性和功能的集合,称之为对象</strong></h2><ul>
+<li>JS内置对象的API applition progrom interface.</li>
+<li>Date 日期对象 用于获取年月日时分秒.</li>
+<li>`var date = new Date(); 获取的是时间(北京时间);</li>
+<li>根据date对象获取年份{</li>
+<li>var year = date.getFullYear();<br>   month = date.Month()+1   //这里是从0~11来记得<br>   day = date.Date();<br>   hour = date.Hours();<br>   min = date.Minutes();<br>   sec = date.Seconds(); ,s</li>
+<li>}</li>
+<li>Math对象和Date对象不同,Math里的都是静态方法,不需要new.</li>
+<li>console.log(Math.ceil(2.1)); //3  天花板函数,向上取整.</li>
+<li>console.log(Math.fioor(-2)); //-3 地板函数.</li>
+<li>max 最大值     min  最小值</li>
+<li>Math random 区间(0,1);</li>
+<li>Max.pow(x,y) x值得y次方.</li>
+<li>Max.round(x)  把浮点类型改成整数类型,不常用</li>
+</ul>
+<ul>
+<li>&amp;&amp;  与/且 两个都为真就是真,有一个为假,那就事假.</li>
+<li>||  或   两个有一个为真就为真,两个都是假就是假.</li>
+<li>!  非  取反意.<hr>
+连比的写法  console.(3&lt;2&amp;&amp;2&lt;4);<hr>
+<h2 id="if语句"><a href="#if语句" class="headerlink" title="if语句"></a>if语句</h2></li>
+<li>if….else  if 就是如果的意思,else否则的意思</li>
+<li>公式为  if(条件表达式){<br>2               条件为真的时候做的事情<br>3                     }else{<br>4    条件为假的时候做的事情</li>
+</ul>
+<p>}</p>
+<ul>
+<li>条件表达式，要么是true、要么是false。绝对在计算机中，不可能出现模棱两可的情况。所以，if语句让程序有了“选择”，可以在两条路中选择一条。</li>
+<li>else if 基于不同条件l执行不同的条件.</li>
+<li><h3 id="switch称之为条件分支语句"><a href="#switch称之为条件分支语句" class="headerlink" title="switch称之为条件分支语句"></a>switch称之为条件分支语句</h3></li>
+<li>switch..case..语句</li>
+<li>在执行时会y一次将case后的表达式的值和switch后的条件表达式的值进行全等比较,如果比较结果为true,则从当前case出开始执行代码.</li>
+<li>当前case后的代码都会执行,可以在case后加入baeak,值进行当前case,不执行其他case.</li>
+<li>如果为false,则继续向下比较.</li>
+<li>如果所有比较结果都是flase,则执行default,</li>
+</ul>
+<hr>
+<h3 id="while语句"><a href="#while语句" class="headerlink" title="while语句"></a>while语句</h3><ul>
+<li>通过while循环语句可以反复执行一段代码</li>
+<li>while(条件表达式){语句.. }</li>
+<li>while语句z爱执行时,先对条件表达式进行判断,如果为true ,执行这段代码,执行完毕后,继续对表达式进行判断,如果值为flase,则终止循环.</li>
+<li>将条件表达式写死为true的循环,叫做死循环,该循环不会停止,除非关闭浏览器(慎用).同switch一样可以使用break结束循环.</li>
+<li>Do{<pre><code>语句
+</code></pre>   }while(条件表达式)</li>
+<li>执行流程:先执行循环体,在对while进行判断,如果为true继续执行,如果为flase终止循环.<h2 id="for循环"><a href="#for循环" class="headerlink" title="for循环"></a>for循环</h2></li>
+</ul>
+<ul>
+<li>for(初始化表达式;条件表达式;更新表达式){语句}.</li>
+<li>过程:先初始化变量,在判断条件表达式,是否执行循环,最后执行更新表达式,执行完一遍后,继续执行条件表达式.初始换表达式只会执行一次.</li>
+<li>省略写法 var i = 0 <pre><code>for(;i&lt;10&gt;;){
+    alert(i)
+}
+</code></pre><h3 id="continue可以提哦啊过当次循环-只会对离他最近循环进行起作用"><a href="#continue可以提哦啊过当次循环-只会对离他最近循环进行起作用" class="headerlink" title="continue可以提哦啊过当次循环(只会对离他最近循环进行起作用)"></a>continue可以提哦啊过当次循环(只会对离他最近循环进行起作用)</h3></li>
+</ul>
+<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><ul>
+<li>通过对象形式创建数组<br>var arr = new Array();<br>arr[0]=xx arr[1]=xx ….</li>
+<li>直接创建数组<br>var arr = [1,2,3,4,5];</li>
+<li>数组的下标是从0开始的;可以通过下标赋值,也可以通过下标取值 </li>
+<li>数组里的值可以是任意类型,最好是同一种类型 </li>
+<li>concat 拼接<br> var arr3 = arr.concat(arr2);</li>
+<li>join() 把数组转换为字符串,默认是,<br>console.(arr.join(‘,’);)</li>
+<li>split() 把字符串打断为数组<br> var arr = this is a  boy;<br> var arr2 = arr.split(‘ ‘); </li>
+<li>push()  从后面推进去;</li>
+<li>unshift 从数组的前面放入;</li>
+<li>pop() 删除最后一个元素;</li>
+<li>shift()  删除第一个元素;  <h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3></li>
+</ul>
+<p>比较相邻的元素。如果第一个比第二个大，就交换他们两个。<br>对每一对相邻元素做同样的工作，从开始第一对到结尾的最后一对。在这一点，最后的元素应该会是最大的数。针对所有的元素重复以上的步骤，除了最后一个。持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较 .  </p>
+<h2 id="算法描述"><a href="#算法描述" class="headerlink" title="算法描述"></a>算法描述</h2><h3 id="冒泡排序-1"><a href="#冒泡排序-1" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">var arr = [8,5,4,2,1];</span><br><span class="line">for(var j = 1 ; j&lt;arr.length ; j++)&#123;</span><br><span class="line">    for(var i = 0 ; i&lt;arr.length-j ; i++)&#123;</span><br><span class="line">	 if(arr[i&gt;arr[i+1]])&#123;</span><br><span class="line">		 **交换位置**</span><br><span class="line">		 var temp = arr[i];</span><br><span class="line">		 arr[i]=arr[i+1];</span><br><span class="line">		 arr[i+1]=temp</span><br><span class="line">	 &#125;</span><br><span class="line"> &#125;</span><br><span class="line"> console.log(&apos;第&apos;+j+&apos;轮的结果&apos;,arr);</span><br><span class="line">&#125; </span><br><span class="line">   console.log(&apos;最终结果&apos;,arr);</span><br></pre></td></tr></table></figure>
+<h3 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">		</span><br><span class="line">var arr = [1,8,5,7,4,3,2];</span><br><span class="line"></span><br><span class="line">for(var j = 0 ; j &lt; arr.length-1 ; j++)&#123;</span><br><span class="line">			 *默认最小值的下标为 0* </span><br><span class="line">	var minIndex = j;</span><br><span class="line">	 for(var i = 1+j ; i &lt; arr.length ; i ++)&#123;</span><br><span class="line">	  if(arr[minIndex]&gt;arr[i])&#123;</span><br><span class="line">			minIndex = i;</span><br><span class="line">				              &#125;</span><br><span class="line">		&#125;</span><br><span class="line">		//如果最小下标依然是j 就没必要交换位置</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">			if(j!=minIndex)&#123;</span><br><span class="line">				//放到第一个位置</span><br><span class="line">				var temp = arr[j];</span><br><span class="line">				arr[j] = arr[minIndex];</span><br><span class="line">				arr[minIndex] = temp;</span><br><span class="line">			&#125;</span><br><span class="line">			</span><br><span class="line">	console.log(&apos;获取了最小下标为&apos;+minIndex);</span><br><span class="line"></span><br><span class="line">	console.log(arr);</span><br><span class="line">	&#125;</span><br><span class="line">	console.log(&apos;最终结果为:&apos;,arr);</span><br></pre></td></tr></table></figure>
+<ul>
+<li>求平均值<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var arr = [33,21,1,40,12,5] </span><br><span class="line">var sum = 0 ;</span><br><span class="line">for(var i = 0 ; i &lt; arr.length ; i++)&#123;</span><br><span class="line">sum += arr[i];</span><br><span class="line">&#125;</span><br><span class="line">console.log(sum/arr.length);</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><p>1  </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/02/18/jsz总结/" data-id="cjs9zgzj60002tovisuo91ikl" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2019/02/18/html1/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">February 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/02/18/jsz总结/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/18/html1/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/18/dom/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/18/text/">text</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/18/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
